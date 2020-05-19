@@ -16,6 +16,7 @@ html,body{
     background-color: #445162;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 .header{
     background: linear-gradient(90deg, #0F2027, #203A43, #2C5364);
     @include block;
@@ -28,6 +29,12 @@ html,body{
     li{
         padding: 0 50px 0 50px;
     }
+}
+.scroll{
+    margin: 0 auto;
+    background: linear-gradient( #0F2027, #203A43, #2C5364);
+    position: fixed;
+    margin-top: 20%;
 }
 .skin_image{
     width: 700px;

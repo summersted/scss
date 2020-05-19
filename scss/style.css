@@ -106,6 +106,14 @@ html, body {
   padding: 0 50px 0 50px;
 }
 
+.scroll {
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0F2027), color-stop(#203A43), to(#2C5364));
+  background: linear-gradient(#0F2027, #203A43, #2C5364);
+  position: fixed;
+  margin-top: 20%;
+}
+
 .skin_image {
   width: 700px;
   height: 400px;
