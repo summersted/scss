@@ -11,6 +11,8 @@ html,body{
     background-size: 200%;
 }
 .dark{
+    width: 50%;
+    height: 400px;
     background-color: #445162;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
@@ -27,9 +29,10 @@ html,body{
         padding: 0 50px 0 50px;
     }
 }
-iframe,#git_link{
-    width: 500px;
-    height: 300px;
+.skin_image{
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .media{
     @include block;
@@ -45,6 +48,12 @@ footer{
     ul{
         padding-right: 50px;
     }
+}
+.button{
+    @include block;
+    background-color: black;
+    width: 100px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 //slide blocks
 .left{
